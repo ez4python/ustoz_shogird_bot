@@ -22,5 +22,3 @@ async def smth_handler(msg: Message):
     helper_text_footer = "\ntopishingiz mumkin.\n\nE'lon berish: @illegal_testing_bot\n\nAdmin: @UstozShogirdAdminBot"
     full_text = helper_text_header + helper_text_body + helper_text_footer
     await msg.answer(text=full_text)
-
-@dp.message()
